@@ -46,15 +46,7 @@ DIV {
 	height: 50px;
 	border: 1px solid red;
 }
-	
-	#FooterRight{
-	
-	@media only screen and (max-width: 998px) {
-		#Footer, #MainContent, #Header{
-			width:100%;
-		}
-
-.button-container {
+	.button-container {
 	display: flex;
 	width: 100%;
 	min-height: 100vh;
@@ -88,3 +80,24 @@ DIV {
 	color: #FFF;
 	background-color: #dc5349;
 }
+
+.button-2{
+	color: #652009;
+	border: 3px solid #652009;
+	background-image: linear-gradient(to right, transparent 50%,#652009 50%);
+	background-size: 200%;
+	background-position:0%;
+}
+
+.button-2:hover{
+	color: #FFF;
+	background-position:100%;
+	{
+	
+	#FooterRight{
+	
+	@media only screen and (max-width: 998px) {
+		#Footer, #MainContent, #Header{
+			width:100%;
+		}
+
