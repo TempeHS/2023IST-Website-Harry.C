@@ -19,6 +19,13 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+	 <script>
+	 
+    function showAlert() {
+      alert("Added to the email list (͠≖ ͜ʖ͠≖)");
+    }
+	
+    </script>
   </head>
   <body>
   <style>
@@ -93,9 +100,15 @@ font-family: 'Tilt Warp', cursive;
     margin-bottom: 10px;
 } 
   
-    img {
-        text-align: left;
-      }
+   @media only screen and (max-width: 480px) {
+img {
+width: 100%;
+}
+}
+
+ button {
+{background-color: #ffcc00;}
+}
 
   
   </style>
@@ -402,7 +415,7 @@ Welcome to "Harry's Shoelace Tying Website!" - Your Ultimate Guide to Shoelace T
           <div class="d-flex flex-column flex-sm-row w-100 gap-2">
             <label for="newsletter1" class="visually-hidden">Email address</label>
             <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-            <button class="btn btn-primary" type="button">Subscribe</button>
+            <button class="btn btn-primary" onclick="showAlert()" type="button">Subscribe</button>
 			
 			
 			
